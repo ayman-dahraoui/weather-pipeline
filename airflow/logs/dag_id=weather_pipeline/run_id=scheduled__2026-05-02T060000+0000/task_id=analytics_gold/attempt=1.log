@@ -1,0 +1,19 @@
+{"timestamp":"2026-05-02T20:44:23.425600Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-05-02T20:44:23.427147Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_dag.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-05-02T20:44:23.488568Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"UserWarning","filename":"/opt/airflow/dags/weather_dag.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2026-05-02T20:44:23.507078Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.507592Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.508388Z","level":"info","event":"Current task name:analytics_gold","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.508639Z","level":"info","event":"Dag name:weather_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.605907Z","level":"info","event":"✅ Gold: Marrakech → 70/100","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.624325Z","level":"info","event":"✅ Gold: Tanger → 40/100","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.644508Z","level":"info","event":"✅ Gold: Dakhla → 20/100","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.664633Z","level":"info","event":"✅ Gold: Essaouira → 30/100","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.693198Z","level":"info","event":"✅ Gold: Casablanca → 40/100","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.714289Z","level":"info","event":"✅ Gold: Fes → 30/100","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.759353Z","level":"info","event":"✅ Gold: Agadir → 30/100","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.908512Z","level":"info","event":"🥇 Meilleure destination : Marrakesh","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.908835Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":229}
+{"timestamp":"2026-05-02T20:44:23.921416Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.924347Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:23.932717Z","level":"info","event":"Task operator:<Task(PythonOperator): analytics_gold>","logger":"task.stdout"}

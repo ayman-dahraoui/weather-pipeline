@@ -1,0 +1,18 @@
+{"timestamp":"2026-05-02T20:44:21.157824Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-05-02T20:44:21.159384Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_dag.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-05-02T20:44:21.224271Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"UserWarning","filename":"/opt/airflow/dags/weather_dag.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2026-05-02T20:44:21.247308Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:21.251206Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:21.251736Z","level":"info","event":"Current task name:transformation_silver","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:21.251975Z","level":"info","event":"Dag name:weather_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:21.490733Z","level":"info","event":"✅ Silver: Marrakech","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:21.572425Z","level":"info","event":"✅ Silver: Tanger","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:21.772072Z","level":"info","event":"✅ Silver: Dakhla","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:21.900747Z","level":"info","event":"✅ Silver: Essaouira","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:21.959259Z","level":"info","event":"✅ Silver: Casablanca","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:22.037429Z","level":"info","event":"✅ Silver: Fes","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:22.136865Z","level":"info","event":"✅ Silver: Agadir","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:22.137169Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":229}
+{"timestamp":"2026-05-02T20:44:22.150351Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:22.150781Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-05-02T20:44:22.151211Z","level":"info","event":"Task operator:<Task(PythonOperator): transformation_silver>","logger":"task.stdout"}
